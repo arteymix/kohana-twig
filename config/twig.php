@@ -25,6 +25,13 @@ return array(
 		'strict_variables'    => FALSE,
 	),
 
+        /**
+         * Twig Extensions
+         */
+        'extensions' => array(
+            new Twig_Extension_Fragment()
+        ),
+    
 	/**
 	 * Custom functions, filters and tests
 	 *
